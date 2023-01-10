@@ -1,0 +1,166 @@
+.main {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+    height: 350px;
+}
+
+
+.valores {
+    display: flex;
+    justify-content: space-around;
+}
+
+.valores div {
+    width: 32%;
+    height: 80px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.322);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.valores div h1 {
+    width: 90%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.valores div p {
+    width: 90%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+.valores div .up i {
+    color: green;
+}
+
+.valores div .down i {
+    color: red;
+}
+
+.valores div .money i {
+    color: rgba(255, 0, 0, 0.774);
+}
+
+
+
+/*TASK*/
+.task {
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.192);
+    max-height: 300px;
+    min-height: 150px;
+    overflow: scroll;
+}
+
+.header_task {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.task .header_task span {
+    width: 210px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.task .header_task .tipo_span {
+    width: 210px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.movimentacao {
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/*---------------RESPONSIVO-------------*/
+@media (max-width: 1000px) {
+    .main {
+        width: 95%;
+        margin-top: -30px;
+        height: 500px;
+    }
+
+
+    .valores {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .valores div {
+        height: 90px;
+    }
+
+    .valores div h1 {
+        font-size: 17px;
+    }
+
+    .valores div p {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+
+
+
+
+    /*TASK*/
+    .task {
+        max-height: 400px;
+    }
+
+    .header_task {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+        padding-bottom: 5px;
+        display: flex;
+    }
+
+    .task .header_task span {
+        width: 210px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .task .header_task .tipo_span {
+        width: 210px;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        padding-right: 20px;
+    }
+
+    .task .header_task .valor_span {
+        text-align: center;
+    }
+
+
+    .movimentacao {
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

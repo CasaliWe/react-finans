@@ -1,0 +1,68 @@
+.nota {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.nota span {
+    width: 210px;
+    font-size: 13px;
+}
+
+.nota span:nth-child(3) {
+    text-align: center;
+    width: 210px;
+    font-size: 13px;
+}
+
+.nota p i {
+    color: black;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 400ms;
+}
+
+.nota p i:hover {
+    color: rgba(0, 0, 0, 0.548);
+}
+
+
+
+
+
+
+/*---------------RESPONSIVO-------------*/
+@media (max-width: 1000px) {
+    .nota {
+        border: 1px solid rgba(0, 0, 0, 0.137);
+    }
+
+    .nota span {
+        width: 210px;
+        font-size: 12px;
+    }
+
+    .nota span:nth-child(2) {
+        text-align: center;
+    }
+
+    .nota span:nth-child(3) {
+        text-align: center;
+        width: 210px;
+        font-size: 13px;
+    }
+
+    .nota p i {
+        color: black;
+        cursor: pointer;
+        font-size: 13px;
+        transition: all 400ms;
+    }
+
+    .nota p i:hover {
+        color: rgba(0, 0, 0, 0.548);
+    }
+
+
+}
